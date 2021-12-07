@@ -1,0 +1,133 @@
+.types .container {
+  max-width: 1111px;
+  position: relative;
+  width: 100%;
+}
+.types__img {
+  max-width: 1111px;
+  width: 100%;
+  position: absolute;
+  top: -60%;
+  transform: translateY(50%);
+}
+
+.types__list {
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+}
+.types__item {
+  max-width: 255px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+.types__item + .types__item {
+  margin-left: 30px;
+}
+.second_container_img {
+  margin-bottom: 70px;
+  width: 250px;
+}
+.types-heading {
+  margin-bottom: 24px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+}
+.types_text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+@media only screen and (max-width: 1100px) {
+  .types .container {
+    position: relative;
+  }
+  
+  .types__img {
+    position: absolute;
+    top: -10%;
+    transform: translateY(-50%);
+    
+  }
+  .types__list {
+    flex-direction: column;
+  }
+  .types__item {
+    display: flex;
+    max-width: 80%;
+  }
+  .types__info {
+    margin-left: 56px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .types-heading {
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+  .types-text {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .types .container {
+    position: relative;
+  }
+  
+  .types__img {
+    position: absolute;
+    top: 0%;
+    
+  }
+  .types__list {
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .types__item {
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .types__info {
+    margin-left: 56px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .second_container_img {
+    margin-top: 50px;
+    max-width: 200px;
+    width: 100%;
+  }
+  .types-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .types_text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .types__item {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .types__list {
+    margin: 0;
+    padding: 0;
+  }
+}

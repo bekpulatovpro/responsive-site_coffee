@@ -1,0 +1,87 @@
+.card {
+  margin-top: 178px;
+}
+.card  .container{
+    margin-left: 85px;
+    max-width: 1045px;
+    width: 100%;
+}
+.card__title {
+  font-family: "Fraunces";
+  margin-bottom: 72px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.card__img {
+  margin-bottom: 50px;
+}
+.card__item {
+  max-width: 285px;
+  width: 100%;
+}
+.card__item + .card__item {
+  margin-left: 95px;
+}
+.card-inside__heading {
+  margin-bottom: 24px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+.card__link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+@media only screen and (max-width:1100px) {
+    .card .container{
+        margin: 0;
+    }
+    
+}
+@media only screen and (max-width:575px) {
+    .card__list {
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+    
+      }
+      .card__item + .card__item{
+          margin: 0 ;
+          
+      }
+      .card__link{
+          padding-top: 10px;
+      }
+      .card__item {
+        margin: 0 auto;
+        text-align: center;
+      }
+      .card__img{
+          margin-top: 20px;
+      }
+      .card__title {
+          text-align: center;
+       
+        margin-bottom: 20px;
+        
+      }
+
+    
+}
+

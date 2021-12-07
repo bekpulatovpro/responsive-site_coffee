@@ -1,0 +1,80 @@
+.hero {
+  margin-bottom: 256px;
+}
+
+.hero__back {
+  background-image: url("../../img/great.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+.hero__info {
+  padding: 115px 0 116px 85px;
+}
+.hero-title {
+  margin-bottom: 32px;
+  max-width: 495px;
+  width: 100%;
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.hero-text {
+  margin-bottom: 56px;
+  max-width: 495px;
+  width: 100%;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+@media only screen and (max-width: 768px) {
+  .hero__info {
+    padding: 104px 0 103px 58px;
+  }
+  .hero-title {
+    margin-bottom: 24px;
+    max-width: 329px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .hero-text {
+    margin-bottom: 56px;
+    max-width: 445px;
+    width: 100%;
+    font-family: "Barlow";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    opacity: 0.8;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .hero__info {
+    padding: 104px 0 103px 18px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .hero-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .hero-text{
+    font-size: 15px;
+line-height: 25px;
+  }
+}
