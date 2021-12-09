@@ -22,7 +22,7 @@
                 <div class="nav__list">
                     <div class="nav__item"><a href="index.html" class="nav__link">Home</a></div>
                     <div class="nav__item"><a href="about.html" class="nav__link">About Us</a></div>
-                    <div class="nav__item"><a href="#" class="nav__link">Create Your Plan</a></div>
+                    <div class="nav__item"><a href="create.html" class="nav__link">Create Your Plan</a></div>
                 </div>
             </nav>
         </div>
@@ -118,8 +118,9 @@
           </ul>
         </div>
       </section>
+      
       <!-- <section class="steps">
-        <div class="container">
+        <div class="second-container">
           <h3 class="step__heading">How it works</h3>
           <ol class="step">
             <li class="step-item">
@@ -234,17 +235,6 @@
           </div>
         </div>
       </footer>
-    <script>
-        const elHamburger = document.querySelector('.header__menu-button')
-        const elHeader =document.querySelector('.header')
-
-        elHamburger.addEventListener('click',()=>{
-            if(elHeader.classList.contains('header--active')){
-                elHeader.classList.remove('header--active')
-            }else{
-                elHeader.classList.add('header--active')
-            }
-        })
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>

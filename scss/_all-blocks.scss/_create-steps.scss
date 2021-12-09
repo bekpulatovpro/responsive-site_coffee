@@ -1,0 +1,128 @@
+.create__steps__back {
+  margin-top: 155px;
+  background: #333d4b;
+  border-radius: 10px;
+}
+.create__step::before {
+  position: absolute;
+  content: "";
+  max-width: 68%;
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: #fdd6ba;
+  transform: translateY(13.5px);
+}
+.create__step {
+  position: relative;
+  display: flex;
+  list-style-type: none;
+  padding-top: 128px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.step-item {
+  padding-top: 100px;
+  max-width: 285px;
+  width: 100%;
+}
+.step-item-before::before {
+  margin-top: 128px;
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  content: "";
+  width: 27px;
+  height: 27px;
+  background: #333d4b;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+}
+.step-item + .step-item {
+  margin-left: 95px;
+}
+.step__title {
+  display: flex;
+  flex-direction: column;
+}
+.step__heading__count {
+    font-family: "Fraunces";
+  margin-bottom: 38px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+.create__heading__text {
+  font-family: "Fraunces";
+  max-width: 255px;
+  width: 100%;
+  margin-bottom: 42px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #fefcf7;
+}
+.create__text {
+    font-family: "Barlow";
+  padding-bottom: 100px;
+  max-width: 285px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+@media only screen and (max-width: 900px) {
+  .create__heading__text {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .create__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .step-item + .step-item {
+    margin-left: 30px;
+  }
+
+}
+@media only screen and (max-width: 667px) {
+  .create__step {
+    
+    padding: 0;
+    flex-direction: column;
+    margin: 0  auto;
+    text-align: center;
+  }
+  .create__step::before {
+    display: none;
+  }
+  .step-item-before {
+    padding: 0;
+   
+    margin: 0 auto;
+    text-align: center;
+  }
+  .step-item-before:first-child{
+    padding-top: 50px;
+  }
+  .step-item-before::before {
+    display: none;
+  }
+  .step-item + .step-item {
+    margin-left: auto;
+  }
+  .step__heading__count{
+      margin-top: 0;
+  }
+  .create__heading__text{
+     margin: 0 auto;
+      font-size: 23px;
+      margin-bottom: 24px;
+  }
+  .create__text{
+    padding-bottom: 10px;
+}
+}
+
