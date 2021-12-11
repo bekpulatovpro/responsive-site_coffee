@@ -153,7 +153,8 @@
   }
 
   .choice__list {
-    width: 575px;
+   max-width: 375px;
+   width: 100%;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -161,9 +162,14 @@
     padding-bottom: 660px;
     padding-top: 65px;
   }
+  // .choice__list {
+  //   max-width: 375px;
+  //   width: 100%;
+  //  }
   .choice__item {
     flex-direction: column;
     padding: 72px 0px;
+    
     padding-bottom: 48px;
     margin: 0 auto;
     text-align: center;
@@ -185,6 +191,13 @@
         padding-bottom: 700px;
         padding-top: 65px;
       }
+      .choice__list {
+        max-width: 375px;
+        width: 100%;
+       }
+      .choice__item{
+        width: 110%;
+      }
     .choice__heading {
       
     font-size: 28px;
@@ -203,4 +216,10 @@ line-height: 32px;
     font-size: 16px;
     line-height: 26px;
   }
+}
+@media only screen and (max-width: 475px) {
+  .choice__list {
+    
+    width: 90%;
+   }
 }

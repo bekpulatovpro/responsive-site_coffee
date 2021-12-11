@@ -196,6 +196,21 @@
     margin: 0;
     text-align: center;
   }
+  .radio__footer__title {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 20px;
+    text-align: center;
+    }
+    .capsule__item__title{
+      margin: 0;
+      padding: 20px 0;
+    }
+    .capsule__item__text{
+      margin: 0 auto;
+      padding: 20px 0;
+      padding-bottom: 80px;
+    }
 }
 @media only screen and (max-width: 700px) {
   .radio__right__first {
@@ -213,7 +228,7 @@
     max-width: 450px;
     width: 100%;
 
-    height: 170px;
+    height: 200px;
     background: #f4f1eb;
     border-radius: 8px;
   }
@@ -240,11 +255,27 @@
     width: 60%;
   }
   .radio__footer {
-    margin: 0 auto;
+    margin: 30px auto;
+  }
+  .radio__footer__title {
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 20px;
+  text-align: center;
   }
   .radio__footer__text{
     padding: 0 10px;
-    font-size: 24px;
+    padding-bottom: 30px;
+    font-size: 22px;
 line-height: 40px;
+  }
+  .capsule__item__title{
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  .capsule__item__text{
+ 
+    padding-bottom: 0px;
   }
 }

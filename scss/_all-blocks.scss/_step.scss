@@ -1,101 +1,48 @@
-// .container {
-//   max-width: 1320px;
-//   width: 100%;
-//   padding: 0 20px;
-//   margin: 0 auto;
-// }
+.create__steps__back {
+  margin-top: 155px;
+  background: #333d4b;
+  border-radius: 10px;
+}
+.create__step__title {
+    margin-top: 300px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+.step__heading__text {
+  margin: 0 auto;
+  font-family: "Fraunces";
+  max-width: 255px;
+  width: 100%;
+  margin-bottom: 42px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+.step__text {
+  font-family: "Barlow";
+  padding-bottom: 100px;
+  max-width: 285px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+.double::before {
+  margin-top: 128px;
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  content: "";
+  width: 27px;
+  height: 27px;
+  background: #fff !important;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+}
 
-// .steps {
-//     margin-top: 400px;
-//     margin-left: 85px;
-//   }
-//   .step__heading {
-   
-//     margin-bottom: 80px;
-//     font-weight: 900;
-//     font-size: 24px;
-//     line-height: 32px;
-//     color: #83888f;
-//   }
-//   .step::before {
-//     position: absolute;
-//     top: 15px;
-//     content: "";
-//     width: 763px;
-//     height: 1px;
-//     display: block;
-//     background-color: #fdd6ba;
-//     transform: translateX(13.5px);
-//   }
-//   .step {
-//     margin: 0;
-//     padding: 0;
-//     position: relative;
-//     display: flex;
-//     list-style-type: none;
-//   }
-//   .step-item {
-//     padding-top: 100px;
-//     width: 285px;
-//   }
-//   .step-item::before {
-//     position: absolute;
-//     top: 0;
-//     display: inline-block;
-//     content: "";
-//     width: 27px;
-//     height: 27px;
-//     background: #fefcf7;
-//     border: 2px solid #0e8784;
-//     border-radius: 50%;
-//   }
-//   .step-item + .step-item {
-//     margin-left: 95px;
-//   }
-//   .step__title {
-//     display: flex;
-//     flex-direction: column;
-//   }
-//   .step__heading__count {
-//     font-family: 'Fraunces';
-//     margin-bottom: 38px;
-//     font-weight: 900;
-//     font-size: 72px;
-//     line-height: 72px;
-//     color: #fdd6ba;
-//   }
-//   .step__heading__text {
-//     font-family: 'Fraunces';
-//     width: 255px;
-//     margin-bottom: 42px;
-//     font-weight: 900;
-//     font-size: 32px;
-//     line-height: 36px;
-//     color: #333D4B;
-//   }
-//   .step__text {
-//     width: 285px;
-//     font-weight: normal;
-//     font-size: 16px;
-//     line-height: 26px;
-//     color: #333D4B;
-//   }
-  
-// @media only screen and (max-width:700px){
-//   .step {
-//     flex-direction: column;
-//   }
-//   .step::before{
-//     display: none;
-//   }
-//   .step-item{
-//     display: flex;
-//     flex-direction: row;
-//   }
-//   .step-item::before{
-//     display: none;
-//   }
-//   .step-item + .step-item {
-//     margin-left: 0;
-//   }
-// }
